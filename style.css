@@ -1,0 +1,25 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+canvas{
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.resume-intro{
+    position: fixed;
+    color: white;
+    font-size: 28px;
+    z-index: 2;
+    left: 75%;
+    bottom:50%
+}
+
+body{
+    overflow-x: hidden;
+}
+
